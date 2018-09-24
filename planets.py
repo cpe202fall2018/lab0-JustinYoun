@@ -5,7 +5,7 @@ def weight_on_planets():
     # Prompts user for weight on earth
     userWeight = float(input("What do you weigh on earth? "))
     print()
-    # Gets the weight of the user on mars and jupiter
+    # Calculates the weight of the user on mars and jupiter
     marsWeight = userWeight * 0.38
     jupiterWeight = userWeight * 2.34
     # Print the final weight statement
